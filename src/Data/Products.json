@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "img": "src/assets/AHA_BHA.png",
+    "name": "AHA BHA 10%",
+    "price": 126000,
+    "category": "skin",
+    "description": "A skin-regenerating daily serum with 10% blend of AHAs (Alpha Hydroxy Acids) and BHAs (Beta Hydroxy Acids) that mildly exfoliates without drying the skin to reveal clear, radiant, and hydrated skin."
+  },
+  {
+    "id": 2,
+    "img": "src/assets/vitamin_c_10.png",
+    "name": "Vitamin C 10%",
+    "price": 147000,
+    "category": "skin",
+    "description": "test"
+  },
+  {
+    "id": 3,
+    "img": "src/assets/niacinamide_10.png",
+    "name": "Niacinamide 10%",
+    "price": 126000,
+    "category": "skin",
+    "description": "A daily serum formulated with pure Vitamin B3 (Niacinamide) and Matmarine. Niacinamide reduces the sebum level of the skin, improves the barrier & evens our skin tone. Matmarine is a perfect biotechnological ingredient to reduce excess sebum, shine, pores & spots."
+  },
+  {
+    "id": 4,
+    "img": "src/assets/niacinamide.png",
+    "name": "Niacinamide 05%",
+    "price": 126000,
+    "category": "skin",
+    "description": "A nourishing & hydrating daily serum that repairs damaged barrier & soothes sensitive skin. Ideal for people with dry, sensitive skin & those who find Niacinamide 10% a little strong."
+  },
+  {
+    "id": 5,
+    "img": "src/assets/sepicalm_03_skin.png",
+    "name": "Sepicalm 03% Moisturizer",
+    "price": 73000,
+    "category": "skin",
+    "description": "A lightweight moisturizer that hydrates, soothes, and softens skin, without oily, shiny or heavy residual feel. Perfect blend of hydrators, emollients and occlusives for all day moisturization. Suitable for Normal, Acne-Prone & Sensitive Skin."
+  },
+  {
+    "id": 6,
+    "img": "src/assets/hair_growth_actives_18.png",
+    "name": "Hair Growth Actives 18%",
+    "price": 180000,
+    "category": "hair",
+    "description": "A powerful hair growth serum with blend of 5 proven ingredients (Capixyl, Redensyl, Procapil, Anagain, and Baicapil) in a high concentration of 18%. A potent combination of peptides & extracts for fuller, thicker hair."
+  }
+  
+  
+]
