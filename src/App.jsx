@@ -7,6 +7,7 @@ import Shop from './pages/Shop';
 import Membership from './pages/Membership';
 import Contact from './pages/Contact';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Detail from './pages/Detail';
 
 
 
@@ -23,8 +24,8 @@ function App() {
           <Route path='/shop' element={<Shop />} />
           <Route path='/membership' element={<Membership />} />
           <Route path='/contact' element={<Contact /
-          
           >} />
+        <Route path="/shop/:id" element={<Detail />} />
         </Routes>
       </BrowserRouter>
     </>
