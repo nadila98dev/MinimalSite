@@ -11,7 +11,7 @@ const ContactInfo = () => {
     <div className='w-full h-screen'>
         <div className='grid grid-cols-2 m-auto'>
            <div className='flex flex-wrap items-center justify-center'>
-           <img src="./src/assets/contact_bg.png" alt="" />
+           <img src="./assets/contact_bg.png" alt="" />
            </div>
 
      <div className='flex flex-col items-center justify-start'>
