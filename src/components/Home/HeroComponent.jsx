@@ -22,7 +22,7 @@ const HeroComponent = () => {
           </button>
         </div>
       </div>
-      <img src="./src/assets/bg-hero.png" className="object-cover" />
+      <img src="/assets/bg-hero.png" className="object-cover" />
     </div>
   );
 };

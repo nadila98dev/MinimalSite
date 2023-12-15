@@ -44,7 +44,7 @@ const Navbar = () => {
           type='submit'
           className='mx-5 bg-black hover:bg-gray-800 text-white font-bold py-2 px-5'
         >
-          LOG IN
+          <a href="/login"> LOG IN</a>
         </button>
       </ul>
     </div>
