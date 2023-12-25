@@ -1,0 +1,61 @@
+/* styles/Card.css */
+
+.cart_title {
+  display: grid;
+  margin-bottom: 30px;
+  text-align: center; /* Center text within the grid */
+}
+
+.cart_title h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0; /* Remove default margin */
+}
+
+.cart_title p {
+  font-weight: lighter;
+  font-size: 15px;
+  margin: 0; /* Remove default margin */
+}
+
+.img_prod {
+  height: 100px;
+  width: 100px;
+}
+
+.subtotal_context p {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Styles for screens up to 499px wide */
+@media (max-width: 499px) {
+  .cart_title h2,
+  .cart_title p,
+  .subtotal_context p {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Styles for screens 500px and wider */
+@media (min-width: 500px) {
+  /* Add your styles for screens between 500px and 767px */
+}
+
+/* Styles for screens 768px and wider */
+@media (min-width: 768px) {
+  .cart_title {
+    grid-template-columns: 1fr; /* Display grid in a single column */
+    grid-gap: 10px; /* Add some spacing between elements */
+  }
+
+  .img_prod {
+    margin-right: 0; /* Remove margin for better alignment */
+  }
+}
+
+/* Styles for screens 1024px and wider */
+@media (min-width: 1024px) {
+  /* Add your styles for screens between 1024px and wider */
+}

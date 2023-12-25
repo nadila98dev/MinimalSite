@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
@@ -46,6 +48,11 @@ const Navbar = () => {
         >
           <a href="/login"> LOG IN</a>
         </button>
+        <Link to={"/cart"}>
+        <button>
+        <FontAwesomeIcon icon={faShoppingCart} />
+        </button>
+        </Link>
       </ul>
     </div>
   </div>

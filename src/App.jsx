@@ -10,6 +10,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Detail from './pages/Detail';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Cart from './pages/Cart';
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/shop/:id" element={<Detail />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </>
