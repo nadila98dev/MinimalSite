@@ -21,6 +21,15 @@ const Detail = () => {
       callApi();
     }, []);
 
+    const handleAddClick = () =>{
+      const newItem = {
+        id:detail.id,
+        img: detail.img,
+        name: detail.name,
+        price: detail.price
+      }
+    }
+
     return (
       <div className="flex flex-cols-2 w-full h-full justify-start my-[70px]">
       <div className='grid md:grid-cols-2 justify-center m-auto'>
@@ -38,7 +47,7 @@ const Detail = () => {
               {" "}
               -{" "}
               </span>
-              <input className='h-9 w-[40px] border bg-white text-center text-xs flex items-center' type="number" value='1' min='1' />
+              <input className='h-9 w-[40px] border bg-white text-center text-xs flex items-center' type="number" value='1' min='1' readOnly />
               <span className='cursor-pointer rounded-l bg-gray-100 py-1 px-3.5 duration-100 hover:bg-button hover:text-white'>
               {" "}
               +{" "}

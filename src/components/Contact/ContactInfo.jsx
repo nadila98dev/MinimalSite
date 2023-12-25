@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ContactInfo = () => {
   let alertMsg = "Success submit";
@@ -8,38 +8,58 @@ const ContactInfo = () => {
   }
 
   return (
-    <div className='w-full h-screen'>
-        <div className='grid grid-cols-2 m-auto'>
-           <div className='flex flex-wrap items-center justify-center'>
-           <img src="./assets/contact_bg.png" alt="" />
-           </div>
-
-     <div className='flex flex-col items-center justify-start'>
-                <h2 className='text-5xl'>Contact Us</h2>
-                <div className="w-full max-w-xs">
-                <form className="bg-gray-100 shadow-lg rounded px-8 pt-6 pb-8 mb-4">
-                <div className='m-5 mb-6'>
-                <label htmlFor="name" className='text-xl'>Name:</label>
-                <input type="text" name="name" id="name" className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username' placeholder='Your Name'/>
-                </div>
-                <div className='m-5 mb-6'>
-                <label htmlFor="email" className='text-xl'>Email:</label>
-                <input type="email" name="email" id="email" className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username' placeholder='Your Name'/>
-                </div>
-
-                <div className='m-5 mb-6'>
-                <label className="block mb-2 text-xl ">Your message</label>
-                <textarea id="message" rows="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 resize-none" placeholder="Leave a message..."></textarea>
-                </div>
-                <button onClick={showAlert} type='submit' className='bg-primaryyellowish text-white border-primaryyellowish m-3 p-3 text-xl'>Send a message</button>
-                </form>
-                </div>
+    <div className='w-full h-auto mx-auto'>
+      <section className='mb-5 md:mb-10 grid grid-cols-1 md:grid-cols-2 justify-center'>
+        {/* For smaller screens, place the image on top */}
+        <div className='order-2 md:order-1 md:flex md:items-center'>
+          <img
+            src="https://beminimalist.co/cdn/shop/files/Copy_of_6-min_1_720x.jpg?v=1661425956"
+            alt=""
+            className='max-w-full h-auto mx-auto md:mx-0'
+          />
         </div>
-
+        <div className='w-full md:w-3/4 lg:w-1/2 mx-auto space-y-5'>
+          <h2 className='text-3xl font-bold'>Contact Us</h2>
+          <form className='space-y-8'>
+            <div>
+              <label htmlFor='name' className='block mb-2 text-sm font-medium text-gray-900'>
+                Full Name
+              </label>
+              <input
+                type='text'
+                className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-zinc-400-700 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-gray-600 dark:shadow-sm-light'
+                placeholder='Full Name'
+              />
+            </div>
+            <div>
+              <label htmlFor='email' className='block mb-2 text-sm font-medium text-gray-900'>
+                Email
+              </label>
+              <input
+                type='text'
+                className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-zinc-400-700 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-gray-600 dark:shadow-sm-light'
+                placeholder='Email'
+              />
+            </div>
+            <div className='sm:col-span-2'>
+              <label htmlFor='message' className='block mb-2 text-sm font-medium text-gray-900'>
+                Your message
+              </label>
+              <textarea
+                id='message'
+                rows='6'
+                className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-zinc-400-700 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-gray-600 dark:shadow-sm-light'
+                placeholder='Leave a comment...'
+              ></textarea>
+            </div>
+            <button onClick={showAlert} className='w-full h-[35px] bg-primaryblack text-white text-lg font-semibold rounded-md'>
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
     </div>
-       
-    </div>
-  )
-}
+  );
+};
 
-export default ContactInfo
+export default ContactInfo;

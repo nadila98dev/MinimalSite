@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
-    <div className='w-full h-auto my-10 md:my-20'>      <div className='flex flex-col md:flex-row justify-center items-center space-x-5 md:space-y-0 md:space-x-10'>
+    <div className='w-full h-auto my-10 md:my-20'>     
+     <div className='flex flex-col md:flex-row justify-center items-center space-x-5 md:space-y-0 md:space-x-10'>
         <div className='flex flex-col items-center bg-white shadow-md rounded p-8 mb-4 md:w-90'>
           <h2 className='text-xl md:text-2xl font-bold mb-3'>Login</h2>
           <span className='font-light mb-5'>Login for experiencing our beauty magical</span>
