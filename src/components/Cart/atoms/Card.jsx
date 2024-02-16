@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className='flex flex-col'>
       <div className='flex flex-cols-3 justify-stretch items-center md:space-x-8'>
-        <img src="public/assets/hair_growth_actives_18.png" alt="" className='img_prod' />
+        <img src="/assets/hair_growth_actives_18.png" alt="" className='img_prod' />
         <div className='flex flex-col items-center w-full h-auto md:flex-row m-5'>
        <p>Product Name</p>
         <div className='flex flex-wrap mt-5 md:mt-0'>
