@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       <ul
         className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-5 pr-5 transition-all duration-500 ease-in 
-        // Itenary IF else
+        // tenary IF else
         ${
           open ? 'top-23 ' : 'top-[-490px]'
         }`}
