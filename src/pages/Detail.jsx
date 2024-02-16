@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axiosInstance from "../API/apiMinimalist";
 import { useParams } from 'react-router-dom';
+import '../styles/Detail.css'
 
 const Detail = () => {
     const [detail, setDetail] = useState({});
@@ -57,6 +58,14 @@ const Detail = () => {
             <button className='w-full bg-black text-white font-semibold text-[15px] py-3 mb-5 rounded-md hover:brightness-110'>Buy Now</button>
           </div>
         </div>
+        <div className='container-detail pt-10 mt-20'>
+            <h2 className='font-bold text-xl'>What makes it special</h2>
+            <ul className='' id='list_desc'>
+             <li>1. Description 1</li>
+             <li>Description 2</li>
+             <li>Description 3</li>
+            </ul>
+          </div>
       </div>
     </div>
     );

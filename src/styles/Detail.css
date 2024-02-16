@@ -1,0 +1,8 @@
+/* styles/Detail.css */
+
+#list_desc{
+    list-style-type:circle;
+    text-align: left;
+    display: inline-block;
+
+}
